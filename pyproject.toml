@@ -3,7 +3,8 @@ name = "markitdown-all"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11, <3.14"
 dependencies = [
-    "markitdown>=0.0.1a2",
+    "markitdown[all]>=0.1.7",
 ]
+
